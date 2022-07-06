@@ -3,9 +3,9 @@ import React from 'react'
 export default function Header() {
   return (
   
-    <nav className="navbar navbar-light bg-light fixed-top">
+    <nav className="navbar navbar-dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">AUTOCAR</a>
+    <a className="navbar-brand" href="#"><img src="../images/autocar-logo.jpg" alt="Auto car logo"/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>

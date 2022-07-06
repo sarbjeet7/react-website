@@ -1,12 +1,14 @@
 import React from 'react'
 
+
 export default function Banner() {
   return (
+
+    <section className="banner">
     <div className="container">
-      <h1>Info</h1>
+      <h1>True definition of Luxury. </h1>
 
       <article>
-        <h2>About Me</h2>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
@@ -20,7 +22,10 @@ export default function Banner() {
           maxime quo earum accusantium aliquid, doloribus incidunt voluptate
           blanditiis dolorum iure eum suscipit alias eaque!
         </p>
+
+        <button className="btn">Read more</button>
       </article>
     </div>
+    </section>
   );
 }
