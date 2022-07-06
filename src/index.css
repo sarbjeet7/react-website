@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn:focus {
+  box-shadow: none;
+}
+
+nav.navbar {
+  background: #181818;
+  padding: 0;
+}
+
+.banner
+{
+  background-image: url(../public/images/car-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+
+.banner article
+{
+  text-align: center;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 75px;
+  font-family: serif;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  margin: 90px 0;
+}
+
+.navbar img {
+  width: 100%;
+  max-width: 106px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.offcanvas
+{
+  background-color: #181818;
+}
+
+.btn-close {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #fff;
+  background: transparent url(../public/images/close_icon.svg) center/1em auto no-repeat;
+  opacity: 1;
+}
+
+.btn {
+  background-color: #f30304;
+  color: #fff;
+  padding: 8px 24px 8px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+
+footer {
+  text-align: center;
+  background: #181818;
+  padding: 20px 0;
+  color: #fff;
+}
