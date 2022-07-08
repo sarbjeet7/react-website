@@ -23,7 +23,7 @@ export default function Banner() {
           blanditiis dolorum iure eum suscipit alias eaque!
         </p>
 
-        <button className="btn">Read more</button>
+       <a href="/about"><button className="btn">Read more</button></a>
       </article>
     </div>
     </section>
