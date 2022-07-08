@@ -42,7 +42,6 @@ nav.navbar {
 
 .banner h1 {
   font-size: 75px;
-  font-family: serif;
   text-align: center;
   line-height: 60px;
   color: #fff;
@@ -94,6 +93,10 @@ nav.navbar {
 .hero .container {
   padding-top: 15%;
 }
+
+.heading {
+  text-align: center;
+}
 .hero h1 {
   color: #fff;
   font-size: 60px;
@@ -107,6 +110,9 @@ form {
   border-radius: 5px;
   margin-top: 50px;
   padding: 0 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 form input {
   padding: 10px;
@@ -131,9 +137,24 @@ form .box:nth-child(1) {
   border-left: none;
 }
 form h4 {
+  font-size: 18px;
   font-weight: 500;
 }
 
+i.fa.fa-search {
+  font-size: 20px;
+}
+
+.form-btn
+{
+   background: #f30304;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 17px 30px;
+}
 
 @media screen and (max-width: 800px) {
   .hero .container {
