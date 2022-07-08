@@ -1,24 +1,33 @@
 import React from "react"
-import Header from "./MyComponents/Header"
-import img from "../images/about.jpg"
-import "./index.css"
+import Heading from "./Heading"
 
 const About = () => {
   return (
     <>
-      <section className='about'>
-        <Back name='About Us' title='About Us - Who We Are?' cover={img} />
-        <div className='container flex mtop'>
-          <div className='left row'>
-            <Heading title='Our Agency Story' subtitle='Check out our company story and work process' />
+    <section className='hero'>
+        <div className='container'>
+          <Heading title='Search Your Next Luxury Car ' subtitle='Find new & featured cars located in your local city.' />
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-            <button className='btn2'>More About Us</button>
-          </div>
-          <div className='right row'>
-            <img src='./immio.jpg' alt='' />
-          </div>
+          <form className='flex'>
+            <div className='box'>
+              <span>City/Street</span>
+              <input type='text' placeholder='Model' />
+            </div>
+            <div className='box'>
+              <span>Property Type</span>
+              <input type='text' placeholder='Max Price' />
+            </div>
+            <div className='box'>
+              <span>Price Range</span>
+              <input type='text' placeholder='Postal Code' />
+            </div>
+            <div className='box'>
+              <h4>Advance Filter</h4>
+            </div>
+            <button className='btn1'>
+              <i className='fa fa-search'></i>
+            </button>
+          </form>
         </div>
       </section>
     </>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <footer>
     <small>Copyright &copy; 2022. All Rights Reserved.</small>
   </footer>
-  );
+  )
 }

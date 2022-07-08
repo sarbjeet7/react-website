@@ -5,7 +5,7 @@ export default function Header() {
   
     <nav className="navbar navbar-dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img src="../images/autocar-logo.jpg" alt="Auto car logo"/></a>
+    <a className="navbar-brand" href="/"><img src="../images/autocar-logo.jpg" alt="Auto car logo"/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -17,10 +17,10 @@ export default function Header() {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">About</a>
+            <a className="nav-link" href="/about">About</a>
           </li>
         </ul>
       </div>
