@@ -83,7 +83,7 @@ nav.navbar {
 
 /**ABOUT PAGE**/
 .hero {
-  background-image: url("../public/images/about.jpg");
+  background-image: linear-gradient(to bottom, rgb(24 24 24 / 46%), rgb(243 3 4 / 12%)),url("../public/images/about.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
